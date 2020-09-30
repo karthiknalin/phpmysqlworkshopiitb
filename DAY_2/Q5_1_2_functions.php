@@ -1,4 +1,5 @@
 <?php
+
 	function writeName2($firstname){
 		echo $firstname . " Sharma";
 	}

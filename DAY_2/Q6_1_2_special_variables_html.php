@@ -14,6 +14,7 @@
 		<br><br>
 
         <?php
+        
             error_reporting(E_ALL ^ E_NOTICE);
             $name = $_POST['myname'];
             $num1 = $_POST['num1'];

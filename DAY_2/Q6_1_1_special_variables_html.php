@@ -7,6 +7,7 @@
 		<button type = 'reset'  value = 'reset'>Reset</button>
 	</form>
 	<?php
+	
 		error_reporting(E_ALL ^ E_NOTICE);
 		$num1 = $_GET['num1'];
 		$num2 = $_GET['num2'];
