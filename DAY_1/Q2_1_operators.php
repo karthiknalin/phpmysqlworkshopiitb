@@ -7,5 +7,4 @@
     echo "Result (a+b) = " , $a - $b, '<br>';
     echo "Result (a+b) = " , $a * $b, '<br>';
     echo "Result (a+b) = " , $a / $b, '<br>';
-
 ?>

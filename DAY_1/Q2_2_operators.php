@@ -8,5 +8,4 @@
     else
         echo " The Numbers are equal. ";
     
-
 ?>
