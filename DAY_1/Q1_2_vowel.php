@@ -1,5 +1,6 @@
 // Checking vowel or not
 <?php
+
     $char = 'A';
     switch ($char) {
         case 'A' :
