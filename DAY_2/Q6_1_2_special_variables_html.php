@@ -1,7 +1,7 @@
 <html>
-	<form action = 'Q6_1_2_special_variables_html.php' method = 'POST'>		
-		Name of Student: <input  type = 'text' name = "myname"><br>
-		<h5>Marks in Each Subject</h5><br>
+	<form action = 'Q6_1_2_special_variables_html.php' method = 'POST'><br>	
+		Name of Student: <input  type = 'text' name = "myname"><br><br>
+		Enter marks in Each Subject<br>
 		Subject 1: <input  type = 'number' name = "num1"><br>
 		Subject 2: <input  type = 'number' name = "num2"><br>
 		Subject 3: <input  type = 'number' name = "num3"><br>
@@ -26,9 +26,16 @@
             $TM = 5 * 100;
             $PC = ($TMO/(5*($TM)))*100;
 
-            echo "Total Marks Obtained: " , $TMO , "<br>";
-            echo "Total Marks: " , $TM , "<br>";
-            echo "Percentage: " , $PC , "<br>";            
+            echo " Name of the Student: " , $name , "<br>";
+            echo " Marks in Each Subject<br>";
+            echo " Subject 1: " , $num1 , "<br>";
+            echo " Subject 2: " , $num2 , "<br>";
+            echo " Subject 3: " , $num3 , "<br>";
+            echo " Subject 4: " , $num4 , "<br>";
+            echo " Subject 5: " , $num5 , "<br>";
+            echo " Total Marks Obtained: " , $TMO , "<br>";
+            echo " Total Marks: " , $TM , "<br>";
+            echo " Percentage: " , $PC , "<br>";            
         ?>
 
 
